@@ -1,0 +1,56 @@
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#42f4b6), to(#056041)) fixed;
+}
+
+.center {
+    color: #056041;
+    text-align: center;
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+}
+
+.border{
+    border: 3px solid #056041;
+
+}
+.container {
+    padding: 10px;
+    background-color:#aef2da;
+}
+
+input[type=text] {
+	border: 3px solid #056041;
+	padding: 10px;
+	width: 80%;
+	text-align: left;
+	background-color: #CCFFCC;
+}
+
+input[type=button]:hover { 
+    background-color: #CCFFCC;
+    color: #056041; 
+}
+
+input[type=button]:active {
+  background-color: #4CAF50;
+  color: white;
+  transform: translateY(2px);
+  box-shadow: 0px 1px #aef2da;
+}
+
+input[type=button] {
+    background-color: #4CAF50;
+    border: 2px solid #056041;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    margin: 3px;
+    box-shadow: 0px 2px #056041;
+}
+
+
